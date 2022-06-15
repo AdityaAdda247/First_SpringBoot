@@ -1,0 +1,7 @@
+package com.example.FirstDemo.exceptions;
+
+public class UserServiceException extends RuntimeException{
+    public UserServiceException(String message) {
+        super(message);
+    }
+}
