@@ -23,6 +23,7 @@ public class UserController {
     public String status(){
         return "Working";
     }
+
     @PostMapping
     public ResponseEntity<CreateUserResponseModel> createUser(@Valid @RequestBody CreateUserRequestModel userDetails){
 
